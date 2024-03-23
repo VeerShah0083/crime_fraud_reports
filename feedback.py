@@ -1,11 +1,11 @@
 import streamlit as st
 
-# Read CSS code from external file
-with open("feedback.css", "r") as file:
-    css_code = file.read()
+# # Read CSS code from external file
+# with open("feedback.css", "r") as file:
+#     css_code = file.read()
 
-# Custom CSS to style the feedback form
-st.markdown(f'<style>{css_code}</style>', unsafe_allow_html=True)
+# # Custom CSS to style the feedback form
+# st.markdown(f'<style>{css_code}</style>', unsafe_allow_html=True)
 
 # Feedback form
 st.title("Report Anamoly")
